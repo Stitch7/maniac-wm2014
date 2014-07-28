@@ -1,0 +1,88 @@
+BODY { font-family:arial,helvetica,sans-serif;background-color:#f1f4f5;color:#000000 }
+TD,TH { font-family:arial,helvetica,sans-serif }
+A:link { text-decoration:none;color:#0000EE }
+A:visited { text-decoration:none;color:#551188 }
+A:active { text-decoration:underline;color:#0000EE }
+#norm { font-size:10pt }
+#header { font-size:10pt;font-weight:bold }
+#input { font-size:10pt; font-family:Times }
+
+/* highlight user */
+.highlight { color:#b71100 }
+
+/* highlight own entries */
+.own { font-weight:bold;color:#0000EE }
+
+/* background colors for table cells */
+.bg1 {background-color:#D5E5E1}
+.bg2 {background-color:#e3e9ea}
+
+#NetworkIDs {
+	position:absolute;
+	left:180px;
+	top:70px;
+	width:350px;
+	height:80px;
+	z-index:1;
+	background-color: #FFFFFF;
+}
+
+.startbody
+{
+    margin: 0px;
+    padding: 0px;
+         background-color: #000000;
+         height: 100%;
+    background-image: url(../images/070326_gt_full.jpg);
+    background-repeat: no-repeat;
+         background-position: center 0px;
+         cursor: pointer;
+}
+
+.boardlist
+{
+    color: #0000EE;;
+    font-size: 10pt;
+    vertical-align: middle;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.boardlist ul
+{
+    vertical-align: middle;
+    height: 20px;
+    margin: 0px;
+    padding-top: 3px;
+}
+
+.boardlist li
+{
+    display: inline;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+
+.boardlist li span:hover
+{
+    text-decoration: underline;
+}
+
+#quicksearchtext
+{
+    border:  1px solid darkgrey;
+    padding-left: 5px;
+
+    background: #efefef;
+    background-image: url(../images/lupe.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 22px;
+    border-radius: 11px;
+}
+
+.currentBoard span
+{
+    font-weight: bold;
+}
